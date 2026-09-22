@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSTS1</title>
+    <Script src="https://cdn.tailwindcss.com"></Script>
+</head>
+<body class="bg-slate-700 text-yellow-700">
+    <br>
+<h1 Class="text-blue-900 font-bold text-3xl ">
+<div class="bg-slate-200 py-4">
+    <div class="justify-self-center p-4 text-center">
+        STUDENT CREATIVITY FESTIVAL
+        </div>
+        
+    </div>   
+</h1>
+<br>
+
+
+    <div class="flex justify-self-center items-center mx-80 px-10 md-20">
+        <div class="w-45 h-45 border border-black-300 rounded-lg p-10 bg-yellow-100 shadow-lg">
+
+    <p Class="mx-40 text-black justify-self-center  ">Showcase Your Creativity, Skills and Innovative Ideas</p>
+    <br>
+    <br>
+
+
+            <div class="grid grid-cols-2 gap-4">
+            <div class="mb-4">
+ 
+                <label class="block mb-1 font-serif">Student Name :</label> 
+                <input type="text"
+                class="border border-gray-200 py-1 px-10 ">
+             
+            </div>
+            <div class="mb-10 font-serif">
+                <label>Class : </label>
+                <br>
+                
+        <select id="class" name="class"class="py-1 px-20 font-serif " required>
+            <option value="">Select Class</option>
+            <option value="class1">X</option>
+            <option value="class2">XI</option>
+            <option value="class3">XII</option>
+        </select></label>
+            </div>
+        </div>
+    
+
+
+<div class=" grid grid-cols-2 gap-4">
+        <div class="mb-4 font-serif ">
+                <label>Gender : </label><br>
+                <div class="flex item-center gap-2 px-5">
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            </div>
+             <br>
+        </div>
+            
+            <div class="mb-4 font-serif">
+                <label >Event : </label><br>
+        <select id="Event" name="Event" class="py-1 px-5 " required>
+            <option value="">Select Event </option>
+            <option value="class1">Web Development</option>
+            <option value="class2">IoT Project </option>
+            <option value="class3">Grapic Desain</option>
+            <option value="class4"> Public Speaking</option>
+            <option value="class5"> Photography</option>
+
+        </select>
+        </div>
+</div>
+        
+            
+<div class="grid grid-cols-2 gap-4">
+   <div class="mb-4 font-serif ">
+                <label>Participation Type : </label><br>
+                <div class="flex item-center gap-2 px-5">
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Individual</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Team</label>
+            </div>     
+</div>
+</div>
+<br>
+
+<div class="grid grid-cols-2 gap-4">
+<div class="mb-4 font-serif">
+            <label>Contact Number :</label><br>
+            <input type="Number" id="Number" name="Number" class="border border-gray-200 py-1 px-10 textarea id="Information name="Information" rows="4" cols="60" placeholder="0000008 ..."></textarea>
+        </div>
+
+
+        <div class="mb-4 font-serif">
+            <label>Team Name :</label><br>
+            <input type="Number" id="Number" name="Number" class="border border-gray-200 py-1 px-10 textarea id="Information name="Information" rows="4" cols="60" placeholder="Enter Your Time Name ..."></textarea>
+        </div>
+</div>
+
+        <div class="mb-4 ps-10 font-serif">
+            <label for="about">Project Descripcition :</label><br>
+        <textarea id="Information" name="Information" rows="4" cols="60" placeholder="Describe Your Project or competition entry ..."></textarea><br><br>
+        <button class=" bg-blue-500 hover:bg-blue-600 focus:outline-4 focus:outline-offset-4 focus:outline-blue-500 active:bg-blue-700 ... rounded-lg px-6 text-white shadow-lg">
+   Register Now
+</button>
+
+<button class="bg-red-500 hover:bg-red-600 focus:outline-4 focus:outline-offset-4 focus:outline-red-500 active:bg-red-700 ... rounded-lg px-6 text-white mx-4 text-shadow-sky-300 shadow-lg">
+  Cancel
+</button>
+
+        </div>
+
+    
+
+
+    <footer class="bg-white border-t mt-12">
+        <div class="max-w-5xl mx-auto px-6 py-5">
+            <div class="flex flex-col smflex-row items-center justify-between gap-3">
+                <p class="text-sm text-slate-500">
+                    @2026 SMA ABBS Sukoharjo
+                </p>
+                <p  class="text-sm text-slate-400">
+                 Student Creativity Festival  
+                </p>
+
+            </div>
+        </div>
+    </footer>
+    <br>
+
+    <table class="table-auto ">
+  <thead>
+    <tr class="border border-auto border-black justify-center" >
+      <th>No</th>
+      <th>Participant</th>
+      <th>Class</th>
+      <th>Category</th>
+      <th>team</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="border border-auto border-black justify-center">
+        <td class="ps-2">1. </td>
+      <td class="ps-2">Ahmad Fauzan </td>
+      <td class="ps-3">X</td>
+      <td class="ps-3">Web Development</td>
+      <td class="ps-4">CodeX</td>
+      <td class="ps-8">Registed</td>
+    </tr>
+    <tr class="border border-auto border-black">
+      <td class="ps-2">2.</td>
+      <td class="ps-2">Aisyah Putri </td>
+      <td class="ps-3">XI</td>
+      <td class="ps-3">IoT Project</td>
+      <td class="ps-3">SmartTech</td>
+      <td class="ps-8">Pending</td>
+    </tr>
+    
+  </tbody>
+</table>
+        
+                    
+</div>
+
+     
+
+
+    
+</body>
+</html>
